@@ -1,0 +1,84 @@
+# =======================
+# Python / Django
+# =======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# Django environment and secrets
+.env
+*.env
+.env.*
+
+# =======================
+# Virtual Environments
+# =======================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =======================
+# Django specific
+# =======================
+# Static and media files (generated or uploaded)
+static/
+staticfiles/
+media/
+
+# Django migrations (optional — keep if you want to version them)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# =======================
+# IDEs and Editors
+# =======================
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =======================
+# OS Files
+# =======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# =======================
+# Python Packaging
+# =======================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =======================
+# Testing / Coverage
+# =======================
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# =======================
+# Miscellaneous
+# =======================
+*.bak
+*.swp
+*.tmp
